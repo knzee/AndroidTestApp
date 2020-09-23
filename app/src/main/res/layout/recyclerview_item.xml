@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:paddingTop="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:layout_marginBottom="0dp">
+
+    <TextView
+        android:id="@+id/factText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|start"
+        android:layout_marginTop="8dp"
+        android:textColor="#FFF"
+        android:text="Some random fact..."
+        />
+
+    <TextView
+        android:id="@+id/factDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|start"
+        android:layout_marginTop="8dp"
+        android:textColor="#FFFFFF"
+        android:text="*Creation date*"
+     />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#FFFFFF" />
+
+
+</LinearLayout>
